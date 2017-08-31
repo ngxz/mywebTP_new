@@ -1,0 +1,1764 @@
+[ 2017-07-27T02:00:21+08:00 ] 39.40.173.217 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2017-07-27T02:00:22+08:00 ] 39.40.173.217 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-07-27T04:45:52+08:00 ] 106.38.241.144 /ArticleContent/article_content/id/27.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '27' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 5 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 70 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-07-27T04:51:19+08:00 ] 92.113.140.160 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2017-07-27T04:51:19+08:00 ] 92.113.140.160 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T04:58:26+08:00 ] 143.137.29.54 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2017-07-27T04:58:27+08:00 ] 143.137.29.54 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T07:17:42+08:00 ] 46.161.9.29 /MessagePage/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =1 ) ORDER BY time desc LIMIT 0,6   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant message - assumed 'message' D:\freehost\ngxz92\web\Application\Home\Controller\MessagePageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 39 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T07:17:43+08:00 ] 46.161.9.29 /BoardPage/boardLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant board - assumed 'board' D:\freehost\ngxz92\web\Application\Home\Controller\BoardPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 46 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T07:17:44+08:00 ] 46.161.9.29 /BoardPage/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:index.php
+
+[ 2017-07-27T07:17:45+08:00 ] 46.161.9.29 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T07:17:45+08:00 ] 46.161.9.29 /index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T08:05:59+08:00 ] 123.125.67.160 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-07-27T08:37:29+08:00 ] 111.10.214.64 /ArticleContent/article_content/id/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '32' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T08:39:40+08:00 ] 111.10.214.64 /ArticleContent/article_content/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '33' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 5 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 70 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T08:39:45+08:00 ] 111.10.214.64 /ArticleContent/article_content/id/-1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '-1' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 5 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 70 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T08:39:47+08:00 ] 111.10.214.64 /ArticleContent/article_content/id/-1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '-1' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 5 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 70 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T09:10:30+08:00 ] 106.38.241.144 /index.php/Home/WebPage/webLoad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant web - assumed 'web' D:\freehost\ngxz92\web\Application\Home\Controller\WebPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T09:10:40+08:00 ] 106.38.241.144 /index.php/Home/ArticleContent/article_content/id/14
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '14' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T09:12:53+08:00 ] 113.250.224.187 /index.php?m=Home&c=Callback&a=send&callback=jQuery18305125395991109294_1501118067526&_=1501118067887
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T10:19:21+08:00 ] 210.195.114.96 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014001s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2017-07-27T10:19:21+08:00 ] 210.195.114.96 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.011000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.011000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.108007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.108007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-07-27T10:58:52+08:00 ] 101.226.68.215 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009001s ]
+
+[ 2017-07-27T11:28:25+08:00 ] 61.135.169.43 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T13:16:15+08:00 ] 151.80.39.185 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.014000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.014000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-07-27T13:16:17+08:00 ] 51.255.65.80 /WebPage/webLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0340s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant web - assumed 'web' D:\freehost\ngxz92\web\Application\Home\Controller\WebPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2017-07-27T13:30:07+08:00 ] 14.152.64.156 /index.php?m=Home&c=Callback&a=send&callback=jQuery18303798579729952186_1501133514788&_=1501133515114
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:32:49+08:00 ] 124.166.233.127 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:32:51+08:00 ] 124.166.233.127 /Public/css/AjaxLoader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:03+08:00 ] 124.166.233.127 /Aboutme/aboutme.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:10+08:00 ] 124.166.233.127 /BoardPage/boardLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant board - assumed 'board' D:\freehost\ngxz92\web\Application\Home\Controller\BoardPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 46 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:11+08:00 ] 124.166.233.127 /BoardPage/boardLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant board - assumed 'board' D:\freehost\ngxz92\web\Application\Home\Controller\BoardPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 46 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:13+08:00 ] 124.166.233.127 /PhpPage/phpLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =3 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\freehost\ngxz92\web\Application\Home\Controller\PhpPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\e0a899f42fdaba9019c7c1f306ab2916.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\e0a899f42fdaba9019c7c1f306ab2916.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-27T14:33:15+08:00 ] 124.166.233.127 /ArticleContent/article_content/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '10' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:17+08:00 ] 124.166.233.127 /PhpPage/phpLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =3 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\freehost\ngxz92\web\Application\Home\Controller\PhpPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\e0a899f42fdaba9019c7c1f306ab2916.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\e0a899f42fdaba9019c7c1f306ab2916.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:18+08:00 ] 124.166.233.127 /WebPage/webLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant web - assumed 'web' D:\freehost\ngxz92\web\Application\Home\Controller\WebPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:19+08:00 ] 124.166.233.127 /MessagePage/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =1 ) ORDER BY time desc LIMIT 0,6   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant message - assumed 'message' D:\freehost\ngxz92\web\Application\Home\Controller\MessagePageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 39 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:20+08:00 ] 124.166.233.127 /IndexPage/indexLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:20+08:00 ] 124.166.233.127 /Public/css/AjaxLoader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:22+08:00 ] 124.166.233.127 /IndexPage/indexLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:22+08:00 ] 124.166.233.127 /Public/css/AjaxLoader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:23+08:00 ] 124.166.233.127 /IndexPage/indexLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:23+08:00 ] 124.166.233.127 /Public/css/AjaxLoader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:39+08:00 ] 124.166.233.127 /Public/css/grabbing.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:33:49+08:00 ] 124.166.233.127 /IndexPage/indexLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:33:50+08:00 ] 124.166.233.127 /Public/css/AjaxLoader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:34:11+08:00 ] 201.80.1.130 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2017-07-27T14:34:11+08:00 ] 124.166.233.127 /Aboutme/aboutme.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-27T14:34:12+08:00 ] 201.80.1.130 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-27T14:34:14+08:00 ] 124.166.233.127 /BoardPage/boardLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant board - assumed 'board' D:\freehost\ngxz92\web\Application\Home\Controller\BoardPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 46 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-27T14:34:14+08:00 ] 124.166.233.127 /BoardPage/boardLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant board - assumed 'board' D:\freehost\ngxz92\web\Application\Home\Controller\BoardPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 46 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:34:15+08:00 ] 124.166.233.127 /PhpPage/phpLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =3 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant php - assumed 'php' D:\freehost\ngxz92\web\Application\Home\Controller\PhpPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\e0a899f42fdaba9019c7c1f306ab2916.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\e0a899f42fdaba9019c7c1f306ab2916.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:34:16+08:00 ] 124.166.233.127 /WebPage/webLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant web - assumed 'web' D:\freehost\ngxz92\web\Application\Home\Controller\WebPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:34:17+08:00 ] 124.166.233.127 /MessagePage/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =1 ) ORDER BY time desc LIMIT 0,6   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant message - assumed 'message' D:\freehost\ngxz92\web\Application\Home\Controller\MessagePageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 39 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:34:18+08:00 ] 124.166.233.127 /IndexPage/indexLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:34:18+08:00 ] 124.166.233.127 /Public/css/AjaxLoader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:34:18+08:00 ] 124.166.233.127 /IndexPage/indexLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:34:19+08:00 ] 124.166.233.127 /Public/css/AjaxLoader.gif
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:37:31+08:00 ] 124.166.233.127 /WebPage/webLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant web - assumed 'web' D:\freehost\ngxz92\web\Application\Home\Controller\WebPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:37:33+08:00 ] 124.166.233.127 /MessagePage/message.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =1 ) ORDER BY time desc LIMIT 0,6   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant message - assumed 'message' D:\freehost\ngxz92\web\Application\Home\Controller\MessagePageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 39 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\547288f37bb8311e0073038b1f97e809.php 第 41 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T14:37:34+08:00 ] 124.166.233.127 /WebPage/webLoad.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id =2 ) LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant web - assumed 'web' D:\freehost\ngxz92\web\Application\Home\Controller\WebPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 36 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\74fe89c0481876bdb979ee8aa66ef5ab.php 第 38 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T14:37:47+08:00 ] 124.166.233.127 /ArticleContent/article_content/id/15.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '15' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T15:03:37+08:00 ] 207.46.13.202 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-07-27T15:45:06+08:00 ] 54.173.40.158 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015001s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.009001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.009001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.092005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.092005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009000s ]
+
+[ 2017-07-27T16:35:05+08:00 ] 223.14.182.153 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T16:41:03+08:00 ] 117.88.107.130 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T16:46:15+08:00 ] 221.11.230.49 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T16:51:35+08:00 ] 125.76.60.187 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T17:41:52+08:00 ] 42.120.145.211 /index.php?m=Home&c=Callback&a=send&callback=jQuery18308956483853980899_1501148617331&_=1501148620516
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T17:56:35+08:00 ] 123.125.71.54 /BoardPage/boardLoad
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = 4 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant board - assumed 'board' D:\freehost\ngxz92\web\Application\Home\Controller\BoardPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 46 行.
+NOTIC: [8] Undefined variable: page D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\be0008737bcc43469fe31b33d61fbd2d.php 第 48 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T18:04:32+08:00 ] 101.24.126.198 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T18:55:46+08:00 ] 1.85.217.213 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-07-27T20:54:16+08:00 ] 174.100.45.127 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2017-07-27T20:54:16+08:00 ] 174.100.45.127 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T20:59:16+08:00 ] 163.177.90.152 /ArticleContent/article_content/id/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '32' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T20:59:21+08:00 ] 183.228.61.157 /ArticleContent/article_content/id/32.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '32' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T21:00:07+08:00 ] 183.228.61.157 /ArticleContent/article_content/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '33' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 5 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 70 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T21:00:18+08:00 ] 117.185.27.114 /ArticleContent/article_content/id/33.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '33' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 5 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 70 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T21:25:01+08:00 ] 106.38.241.144 /robots.txt
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Robots.txt
+
+[ 2017-07-27T21:25:01+08:00 ] 106.38.241.144 /index.php/Home/ArticleContent/article_content/id/13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '13' )  [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T21:25:11+08:00 ] 106.38.241.144 /index.php/Home/ArticleContent/article_content/id/news.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = 'news' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 5 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 70 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 71 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 83 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 84 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 88 行.
+NOTIC: [8] Undefined offset: 0 D:\freehost\ngxz92\web\Application\Runtime\Cache\Home\6d3ddc3f17c852499da0b78089d02ef6.php 第 89 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-27T22:24:43+08:00 ] 110.188.74.118 /index.php?m=Home&c=Callback&a=send&callback=jQuery18306091000794969448_1501165595113&_=1501165595289
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T23:50:07+08:00 ] 82.33.44.126 /wp-login.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载控制器:Wp-login.php
+
+[ 2017-07-27T23:50:08+08:00 ] 82.33.44.126 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = 1 ) ORDER BY time desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` ORDER BY time desc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant index - assumed 'index' D:\freehost\ngxz92\web\Application\Home\Controller\IndexPageController.class.php 第 19 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-27T23:50:28+08:00 ] 217.182.132.29 /ArticleContent/article_content/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '8' )  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant article_content - assumed 'article_content' D:\freehost\ngxz92\web\Application\Home\Controller\ArticleContentController.class.php 第 18 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

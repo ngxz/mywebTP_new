@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>活动页面</title>
+		<link rel="stylesheet" href="bootstrap-3.3.0-dist/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/active.css" />
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+					//返回顶部
+				$(window).scroll(function(){
+					$("#to-top").show();
+				});
+				$("#to-top").click(function(){
+					$(window).scrollTop(0);
+				});	
+			})
+		</script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<nav class="navbar navbar-default">
+	      	<div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="glyphicon glyphicon-th-large"></span>
+		          </button>
+		          <a class="navbar-brand" href="index.html">Yuanrb.com</a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+		            <li><a href="index.html">首页</a></li>
+		            <li><a href="CPU.html">CPU</a></li>
+		            <li><a href="GPU.html">显卡</a></li>
+		            <li><a href="mainboard.html">主板</a></li>
+		            <li><a href="displayer.html">显示器</a></li>
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他<span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+		                <li><a href="memory.html">内存</a></li>
+		                <li><a href="power.html">电源</a></li>
+		                <li><a href="crate.html">机箱</a></li>
+		                <li class="divider"></li>
+		                <li><a href="hard-disk.html">固态硬盘</a></li>
+		                <li><a href="hard-disk.html">机械硬盘</a></li>
+		              </ul>
+		            </li>
+		          </ul>
+		          <!--搜索框-->
+		          <ul class="nav navbar-nav navbar-right">
+		          	<li>
+		          		<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="商品名称">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form>
+		          	</li>
+		          </ul>
+		        </div>
+	      	</div>
+    	</nav>
+		<!--本页开始-->
+		<div class="container" id="activeCon">
+			<img style="margin-left: -120px;" src="img/bg2.png" />
+			<ul class="row">
+    			<li class="hot col-md-6 col-sm-12 col-xs-12">
+    				<a href="productionCPU.html">
+    					<img src="img/active1.jpg">
+    					<p>美商海盗船(USCORSAIR) 复仇者LED灯条 DDR4 3000 32GB(16Gx2条)</p>
+    					<span>￥<i>1799.00</i></span>
+    				</a>
+    				<br />
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-6 col-sm-12 col-xs-12">
+    				<a href="productionCPU.html">
+    					<img src="img/active2.jpg">
+    					<p>飞利浦（PHILIPS）32英寸AMVA面板2K高分10.74亿色电脑液晶显示器</p>
+    					<span>￥<i>2699.00</i></span>
+    				</a>
+    				<br />
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-6 col-sm-12 col-xs-12">
+    				<a href="productionCPU.html">
+    					<img src="img/active3.jpg">
+    					<p>西部数据(WD) Blue系列 250G 固态硬盘(WDS250G1B0A)</p>
+    					<span>￥<i>669.00</i></span>
+    				</a>
+    				<br />
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li style="margin-top: 70px;" class="hot col-md-6 col-sm-12 col-xs-12">
+    				<a href="productionCPU.html">
+    					<img src="img/active4.jpg">
+    					<p style="margin-top: 40px;">雷神  神谕701玩家限量版 i7-6800K/索泰GTX1080/X99-Phoenix/256G</p>
+    					<span>￥<i>15999.00</i></span>
+    				</a>
+    				<br />
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-6 col-sm-12 col-xs-12">
+    				<a href="productionCPU.html">
+    					<img src="img/active5.jpg">
+    					<p>三星（SAMSUNG） 27英寸LED背光曲面电脑显示器 带音箱C27F591FD</p>
+    					<span>￥<i>1756.00</i></span>
+    				</a>
+    				<br />
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-6 col-sm-12 col-xs-12">
+    				<a href="productionCPU.html">
+    					<img src="img/active6.jpg">
+    					<p>华硕（ASUS）B150 PRO GAMING LGA1151 DDR4 台式电脑主板</p>
+    					<span>￥<i>899.00</i></span>
+    				</a>
+    				<br />
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    		</ul>
+		</div>
+		<div class="container center-block ads"><a href=""><img src="img/active7.jpg"></a></div>
+		<div class="marks"><img src="img/mark.png"></div>
+		<div class="list-right">
+			<ul>
+				<li><a href="#">热销单品</a></li>
+				<li><a href="#">精品主机</a></li>
+				<li><a href="#">开年大促</a></li>
+				<li><a href="#">发烧专区</a></li>
+				<li id="to-top"><a href="#">返回顶部</a></li>
+			</ul>
+		</div>
+    	   	<!--底部-->
+    	<div class="container" id="footer">
+    		<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4">
+    			<h4>客服热线</h4>
+    			<span class="num">400-600-1234</span><br />
+    			<span>周一至周日 8:00-18:00 </span>
+    		</div>
+    		<div class="col-md-8 col-sm-8 col-xs-8">
+    			<div class="row">
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt><a href="">售后服务</a></dt>
+	    				<dd><a href="">服务网点</a></dd>
+	    				<dd><a href="">自助服务</a></dd>
+	    				<dd><a href="">支持建议</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>购物帮助</dt>
+	    				<dd><a href="">个人中心</a></dd>
+	    				<dd><a href="">订单操作</a></dd>
+	    				<dd><a href="">账户管理</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>关于我们</dt>
+	    				<dd><a href="">新浪微博</a></dd>
+	    				<dd><a href="">腾讯微博</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>友情链接</dt>
+	    				<dd><a href="">链接</a></dd>
+	    				<dd><a href="">链接</a></dd>
+	    			</dl>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<span class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" style="color: darkgray;font-size: 12px;">Copyright © 2010 - 2017  南广轩主Yuanrb.com 版权所有 | 消费者维权热线：4006067733 经营证照</span>
+    		</div>
+    	</div>
+	</body>
+</html>

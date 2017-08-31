@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>{$row[0].title}</title>
+		<include file="./Application/Home/View/Public/link.html"/>
+		<style type="text/css">
+			.contentBox{text-align: center;}
+			.contentBox h5{color: darkgray;overflow:hidden;text-align:center;width:330px;margin:0 auto;}
+			.contentBox p{margin-bottom:20px;text-indent: 2em;text-align:left;}
+			.article_img{float:right;width:380px;height:240px;margin:0 10px 20px 20px;}
+			.article_img img{width:380px;height:240px;}
+			/*上一条*/
+			.preNext{width: 60%;}
+			.preNext a:last-child{float: right;}
+		</style>
+		<script type="text/javascript" id="bdshare_js" data="type=tools" ></script>
+    	<script type="text/javascript" id="bdshell_js"></script>
+		<script type="text/javascript">
+			with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];   <!-- 加载本地JS后可不用段条代码 -->
+		</script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<include file="./Application/Home/View/Public/_header.html"/>
+		<!--本页独立内容-->
+		<div class="container contentBox">
+			<h3>{$row[0].title}</h3>
+			<h5><span style="float:left;">{$row[0].time}&nbsp;分享到：	</span>
+				<span class="share">
+					  
+						<div style="float:left;margin-top: -4px;" class="bdsharebuttonbox" data-tag="share_1">
+						    <a class="bds_weixin" data-cmd="weixin"></a>
+						    <a class="bds_qzone" data-cmd="qzone" href="#"></a>
+						    <a class="bds_tsina" data-cmd="tsina"></a>
+						    <a class="bds_sqq" data-cmd="sqq"></a>
+						    <a class="bds_more" data-cmd="more"></a>
+						</div>
+				</span>
+			</h5>
+			<div class="article_img"><img src="__PUBLIC__{$row[0].img_url}" onerror="this.src='__PUBLIC__/img/error.png'"/></div>
+			<p>{$row[0].content}</p>
+		</div>
+		<!-- 上一条下一条 -->
+		<div class="preNext container">
+			<a href="__ROOT__/ArticleContent/article_content/id/{$row[0]['id']-1}.html" class="btn btn-default">上一条</a>
+			<a href="__ROOT__/ArticleContent/article_content/id/{$row[0]['id']+1}.html" class="btn btn-default">下一条</a>
+		</div>
+		<!--footer-->
+      	<include file="./Application/Home/View/Public/_footer.html"/>
+      	<include file="./Application/Home/View/Public/login.html"/>
+	</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>CPU</title>
+		<link rel="stylesheet" href="bootstrap-3.3.0-dist/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/CPU.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript" src="js/CPU.js"></script>
+		<script type="text/javascript" src="js/jQuery-1.7.1.js"></script>
+		<script type="text/javascript">
+			$(function(){
+					//点击删除单列
+				$("#imges").live("click",function(){
+					$(this).parent().remove();
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<nav class="navbar navbar-default">
+	      	<div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="glyphicon glyphicon-th-large"></span>
+		          </button>
+		          <a class="navbar-brand" href="index.html">Yuanrb.com</a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+		            <li><a href="index.html">首页</a></li>
+		            <li class="active"><a href="#">CPU</a></li>
+		            <li><a href="GPU.html">显卡</a></li>
+		            <li><a href="mainboard.html">主板</a></li>
+		            <li><a href="displayer.html">显示器</a></li>
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他<span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+		                <li><a href="memory.html">内存</a></li>
+		                <li><a href="power.html">电源</a></li>
+		                <li><a href="crate.html">机箱</a></li>
+		                <li class="divider"></li>
+		                <li><a href="hard-disk.html">固态硬盘</a></li>
+		                <li><a href="hard-disk.html">机械硬盘</a></li>
+		              </ul>
+		            </li>
+		          </ul>
+		          <!--搜索框-->
+		          <ul class="nav navbar-nav navbar-right">
+		          	<li>
+		          		<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="商品名称">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form>
+		          	</li>
+		          </ul>
+		        </div>
+	      	</div>
+    	</nav>
+    	<!--本页CPU内容开始-->
+    	<!--cpu分类-->
+    	<div class="container" id="arringe">
+    		<ul class="row">
+    			<li class="col-md-1">商品筛选</li>
+    			<li class="col-md-1"><a href="#">酷睿I3</a></li>
+    			<li class="col-md-1"><a href="#">酷睿I5</a></li>
+    			<li class="col-md-1"><a href="#">酷睿I7</a></li>
+    			<li class="col-md-1"><a href="#">全部</a></li>
+    		</ul>
+    	</div>
+    	<!--cpu列表-->
+    	<div class="container" id="CPUList">
+    		<ul class="row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 I3">
+    				<a href="productionCPU.html">
+    					<img src="img/I3-6100.jpg">
+    					<p>英特尔 intel I3-6100</p>
+    					<span>￥<i>819.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 I5">
+    				<a href="productionCPU.html">
+    					<img src="img/I5-6500.jpg">
+    					<p>英特尔 intel I5-6500</p>
+    					<span>￥<i>1469.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 I7">
+    				<a href="productionCPU.html">
+    					<img src="img/I7-6700.jpg">
+    					<p>英特尔（Intel）酷睿四核 i7-6700 1151</p>
+    					<span>￥<i>2329.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 A8">
+    				<a href="productionCPU.html">
+    					<img src="img/AMD-860K.jpg">
+    					<p>AMD 速龙系列 860K 四核 </p>
+    					<span>￥<i>399.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 I3">
+    				<a href="productionCPU.html">
+    					<img src="img/I3-6100.jpg">
+    					<p>英特尔 intel I3-6100</p>
+    					<span>￥<i>819.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6  I5">
+    				<a href="productionCPU.html">
+    					<img src="img/I5-6500.jpg">
+    					<p>英特尔 intel I5-6500</p>
+    					<span>￥<i>1469.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6  I7">
+    				<a href="productionCPU.html">
+    					<img src="img/I7-6700.jpg">
+    					<p>英特尔（Intel）酷睿四核 i7-6700 1151</p>
+    					<span>￥<i>2329.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 A8">
+    				<a href="productionCPU.html">
+    					<img src="img/AMD-860K.jpg">
+    					<p>AMD 速龙系列 860K 四核 </p>
+    					<span>￥<i>399.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 I3">
+    				<a href="productionCPU.html">
+    					<img src="img/I3-6100.jpg">
+    					<p>英特尔 intel I3-6100</p>
+    					<span>￥<i>819.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 I5">
+    				<a href="productionCPU.html">
+    					<img src="img/I5-6500.jpg">
+    					<p>英特尔 intel I5-6500</p>
+    					<span>￥<i>1469.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 I7">
+    				<a href="productionCPU.html">
+    					<img src="img/I7-6700.jpg">
+    					<p>英特尔（Intel）酷睿四核 i7-6700 1151</p>
+    					<span>￥<i>2329.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6 A8">
+    				<a href="productionCPU.html">
+    					<img src="img/AMD-860K.jpg">
+    					<p>AMD 速龙系列 860K 四核 </p>
+    					<span>￥<i>399.00</i></span>
+    				</a>
+    				<input class="join" type="button" value="加入购物车">
+    			</li>
+    		</ul>
+    	</div>
+    	   	<!--底部-->
+    	<div class="container" id="footer">
+    		<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4">
+    			<h4>客服热线</h4>
+    			<span class="num">400-600-1234</span><br />
+    			<span>周一至周日 8:00-18:00 </span>
+    		</div>
+    		<div class="col-md-8 col-sm-8 col-xs-8">
+    			<div class="row">
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt><a href="">售后服务</a></dt>
+	    				<dd><a href="">服务网点</a></dd>
+	    				<dd><a href="">自助服务</a></dd>
+	    				<dd><a href="">支持建议</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>购物帮助</dt>
+	    				<dd><a href="">个人中心</a></dd>
+	    				<dd><a href="">订单操作</a></dd>
+	    				<dd><a href="">账户管理</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>关于我们</dt>
+	    				<dd><a href="">新浪微博</a></dd>
+	    				<dd><a href="">腾讯微博</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>友情链接</dt>
+	    				<dd><a href="">链接</a></dd>
+	    				<dd><a href="">链接</a></dd>
+	    			</dl>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<span class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" style="color: darkgray;font-size: 12px;">Copyright © 2010 - 2017  南广轩主Yuanrb.com 版权所有 | 消费者维权热线：4006067733 经营证照</span>
+    		</div>
+    	</div>
+    	<!--个人中心-->
+    	<div id="custome"><a href="customer.html"><img src="img/cum.jpg"></a></div>
+    	<!--右边购物车返回顶部-->
+    	<div id="toTop"><img src="img/toTop.png"></div>
+    	<!--购物车图标-->
+    	<div id="shopCar"><a href="#"><img src="img/shop32.png"></a></div>
+    	<!--点击购物车弹出div-->
+	    <div id="pop">
+	    	<ul id="pop-content">
+	        	<!--关闭按钮-->
+	            <div id="delbtn"><img src="img/del24.png"></div>
+	            <!--商品名字-->
+	            <p>请确定购买商品的数量和信息</p>
+	            <li id="name">商品名称： <span></span></li>
+	            <li id="price">商品单价： <span></span> 元</li>
+	            <li id="count">购买数量：
+	            	 <img class="left" src="img/left48.png">
+	            	<input type="text" value="22">
+	                <img class="right" src="img/right48.png">
+	            </li>
+	            <li id="total">商品总价： <span style="color:red"></span></li>
+	            <li id="put"><input type="button" value="加入购物车"></li>
+	        </ul>
+	    </div>
+	    <!--购物车弹出页-->
+	    <div id="shopBox">
+	    	<div id="shopContent">
+	        	<!--关闭按钮-->
+	            <div id="delShop"><img src="img/del32.png"></div>
+	            <div id="titleShop"><h3>我的购物车</h3></div>
+	            <div id="conShop">
+	                <ul>  
+	                </ul>
+	                <div style="float:left; margin-left: 50px;"><input id="con" class="btn btn-default" type="button" value="计算总价" /></div>
+	                <div style="float:right; margin-right: 80px;">应该支付总价为：<span id="all">0</span>元</div>
+	        	</div>
+	        </div>
+	    </div>
+	</body>
+</html>

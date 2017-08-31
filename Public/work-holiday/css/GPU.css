@@ -1,0 +1,18 @@
+ul li span{color: red;}
+ul li p{margin-top: 10px;}
+#GPUList ul li{margin: 20px 0;}
+#GPUList a{color: black;}
+#GPUList a:hover{color:red;text-decoration: none;}
+#GPUList input{color:red;background-color:#eeeeee;border: 1px solid #CCCCCC; width:90px; height:28px;margin-left: 30px;}
+/*点击加入购物车弹出的div*/
+#pop{ width:500px; height:300px; background-color:#CCC; position:fixed; top:50%; left:50%; margin-left:-250px; margin-top:-150px; display:none;}
+#pop-content{ padding:0 100px; width:100%;}
+#pop-content p{ font-size:20px;}
+#pop-content li{ margin:8px;}
+/*弹出div的关闭按钮*/
+#delbtn{ position:relative; left:374px; top:0; cursor:pointer;}
+/*购买数量里边*/
+#count input{ height:22px; border:none; width:90px;}
+#count img{ height:16px;display:inline; margin:0 5px; padding-bottom:-5px;cursor:pointer;}
+/*弹出页的加入购物车按钮*/
+#put input{ margin-left:30%; margin-top:10px;border: solid 1px #CCC; background-color:white; color:red; padding:5px 10px; cursor:pointer;}

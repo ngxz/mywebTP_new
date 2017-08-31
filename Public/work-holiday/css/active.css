@@ -1,0 +1,14 @@
+body{background-image: url(../img/bg.jpg);background-repeat: no-repeat;background-color:#e40c31;}
+#footer{margin-top: 50px;}
+#activeCon{margin-top: 890px;background-color: white;}
+#activeCon ul li{margin: 10px 0;}
+#activeCon ul li a i{color: red;font-size: 28px;}
+#activeCon ul li .join{width: 390px;height: 50px;font-size: 24px;background-color: red;border: none;color: white;margin-left: 20px;}
+.ads{background-color:#da133e;margin-top: 30px;}
+/*二维码*/
+.marks{position: fixed;top: 25%;left: 0;}
+/*右边*/
+.list-right{position: fixed;top: 25%;right: 0;}
+.list-right ul li{width: 100px;height: 50px;background-color:darkgray;text-align: center;line-height: 50px;font-size: 20px;border-bottom: 1px soli black;}
+.list-right ul li a{color:white;}
+.list-right ul li a:hover{color: red;}

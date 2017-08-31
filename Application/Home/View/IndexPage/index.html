@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>袁茹兵个人网站</title>
+		<include file="./Application/Home/View/Public/link.html"/>
+		<style type="text/css">
+			.banner{margin: 80px auto;text-align: center;}
+			.jumbotron{height: 550px;background-image:url(__PUBLIC__/img/3.jpg);background-repeat: no-repeat;background-position: center;}
+			.jumbotron p{color: #fff;}
+			.jumbotron h1{color: #fff;}
+			.thumbnail{height: 500px;}
+			.thumbnail img{width: 350px;height: 290px;}
+			.owl-buttons{position: absolute;top: 30%;width: 100%}
+			.owl-theme .owl-controls .owl-buttons div{background:none!important;/*background-color:#fff!important;*/}
+			.owl-buttons .owl-prev{position: absolute;left: 10px;}
+			.owl-buttons .owl-next{position: absolute;right: 10px;}
+			.owl-controls{display: block!important;}
+		</style>
+		
+		<script type="text/javascript">
+    		$(function(){
+    			//照片展示
+    			$("#indexPhotos").owlCarousel({
+				    items : 4,
+				    pagination :false,
+				    lazyLoad : true,
+				    navigationText:["<img src='__PUBLIC__/img/right.png'>","<img src='__PUBLIC__/img/left.png'>"],
+			      	slideSpeed : 300,
+			      	paginationSpeed : 400,
+				    navigation : true
+				});
+				//调整
+				 $(".owl-controls clickable").show();
+    		});
+		</script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<include file="./Application/Home/View/Public/header.html"/>
+    	<!--banner-->
+		<div class="jumbotron">
+		  <div class="container banner">
+		  	<h1>欢迎!</h1>
+		  	<p>这里是袁茹兵的个人小站。这里将记录我的一点一滴成长之路！</p>
+		  	<p><a class="btn btn-default btn-lg" href="__ROOT__/Aboutme/aboutme.html" role="button">关于我</a></p>
+		  </div>
+		</div>
+      	<!--新闻-->
+      	<div class="container center-block" style="margin-top: 20px;">
+			<!--主体内容-->
+			<div class="news">
+				<div class="row">
+				    <volist name="rows.news" id="news">
+				    	<div class="col-sm-6 col-md-4">
+							<div class="thumbnail">
+						      <img src="__PUBLIC__{$news.img_url}" alt="..." onerror="this.src='__PUBLIC__/img/error.png'">
+						      <div class="caption">
+						        <h3>{$news.title}</h3>
+						        <p>{$news.time}</p>
+						        <p>{$news.summary}</p>
+						        <p><a href="__ROOT__/ArticleContent/article_content/id/{$news.id}.html" class="btn btn-default" role="button">更多</a></p>
+						      </div>
+						    </div>
+					    </div>
+					</volist>
+				</div>
+			</div>
+      	</div>
+      	<!--照片展示-->
+  		<div id="indexPhotos" class="owl-carousel">
+  			<volist name="rows.pics" id="pic">
+  				<div class="item">
+					<img src="__PUBLIC__{$pic.img_url}" alt="{$pic.summary}">
+					<div class="shd"><a href="###"></a></div>
+					<div class="txt">
+						<h3><a href="__ROOT__/ArticleContent/article_content/id/{$pic.id}.html">{$pic.title}</a></h3>
+					</div>
+				</div>
+  			</volist>
+		</div>
+      	<include file="./Application/Home/View/Public/_footer.html"/>
+      	<include file="./Application/Home/View/Public/login.html"/>
+	</body>
+</html>

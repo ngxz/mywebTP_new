@@ -1,0 +1,48 @@
+[ 2017-08-02T18:14:17+08:00 ] 113.250.228.244 /index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-02T18:14:21+08:00 ] 113.250.228.244 /index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-02T18:14:27+08:00 ] 113.250.228.244 /index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-02T18:14:36+08:00 ] 113.250.228.244 /index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] fopen(D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net/UTFWry.dat): failed to open stream: No such file or directory D:\freehost\ngxz92\web\ThinkPHP\Library\Org\Net\IpLocation.class.php 第 54 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

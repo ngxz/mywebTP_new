@@ -1,0 +1,6 @@
+ul li span{color: red;}
+ul li p{margin-top: 10px;}
+#mainboardList ul li{margin: 20px 0;}
+#mainboardList a{color: black;}
+#mainboardList a:hover{color:red;text-decoration: none;}
+#mainboardList input{color:red;background-color:#eeeeee;border: 1px solid #CCCCCC; width:90px; height:28px;margin-left: 30px;}

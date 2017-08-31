@@ -1,0 +1,20 @@
+/*reset*/
+ul,li{list-style: none;margin: 0;padding: 0;}
+a{text-decoration: none;color: black;font-family: "微软雅黑";}
+a:hover{color: orangered;text-decoration: none;}
+/*返回顶部按钮*/
+#toTop{ width:42px; height:40px; position:fixed; right:0px;top: 66%;}
+#toTop img{ cursor:pointer; width:40px;}
+#toTop:hover{opacity: 0.7;}
+/*购物车图标*/
+#shopCar{ position:fixed; right:5px; top:60%; cursor:pointer;}
+#shopCar:hover{opacity: 0.7;}
+/*用户中心*/
+#custome{ position:fixed; right:3px; top:54%; cursor:pointer;}
+#custome:hover{opacity: 0.7;}
+/*footer*/
+#footer{background-color: #EEEEEE; margin: 30px auto; padding: 30px 0;}
+#footer .num{color: orange;font-size: 24px;}
+#footer span{color: darkgray;font-size: 12px;}
+#footer dl dt{padding-bottom: 10px;}
+#footer h4{padding-left: 30px;}

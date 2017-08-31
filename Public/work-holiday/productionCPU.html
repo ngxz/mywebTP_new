@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品详情</title>
+		<link rel="stylesheet" href="bootstrap-3.3.0-dist/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/common.css" />
+		<style type="text/css">
+			/*购买数量里边*/
+			#count input{ height:22px; border:none; width:50px;}
+			#count img{ height:16px;display:inline; margin:0 5px; padding-bottom:-5px;cursor:pointer;}
+			/*焦点图*/
+			#imgbox{ width:450px; height:450px; position:relative;}
+			#imgbox img{ display:block;}
+			#imgbox ul{ overflow:hidden;margin-left: 50px;}
+			#imgbox li{ float:left; width:54px; height:54px;cursor:pointer; border: 1px solid gray;margin:10px 5px;}
+			#imgbox .page01{background-image:url(img/B.jpg);}
+			#imgbox .page02{ background-image:url(img/L.jpg);}
+			#imgbox .page03{ background-image:url(img/S.jpg);}
+			.mohu{ opacity:0.5;}
+			/*商品图片右边文字*/
+			.list div{margin: 5px 0;}
+			.list p span{color: red;font-size: 20px;}
+			.list .join{margin: 30px 0;}
+			/*商品信息*/
+			#messageList ul li{float: left; margin: 20px 8px;background-color: #eeeeee;padding: 0 8px;}
+			#messageList ul li:hover{color: red;cursor: pointer;}
+			#messageCon ul{display: none;}
+			#messageCon ul li{line-height: 26px;}
+			.comment{height:155px;overflow: auto;}
+			.comment span{color: red;}
+			.comment i{float:right;padding-right: 70px;}
+			/*相似商品*/
+			.same p{margin-top: 20px;width: 210px;}
+			.same span{font-size: 18px;color: red;}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+		<script type="text/javascript">
+			//点击加减数量
+			$(function(){
+				var i = 1;
+				$("#count .left").click(function(){
+					if(i==1){
+						i=1
+					}else{
+						i--;
+					}
+					$("#count input").val(i);
+					var pric = parseFloat($("#price span").text());
+					//加减后总价
+					$("#total span").text((pric*i).toFixed(2)+" 元");
+				});
+				$("#count .right").click(function(){
+					i++;
+					$("#count input").val(i);
+					var pric = parseFloat($("#price span").text());
+					//加减后总价
+					$("#total span").text((pric*i).toFixed(2)+" 元");
+				});
+				//焦点图
+				$("#imgbox ul li").hover(function(){
+					var arr = ["img/I3-6100B.jpg","img/I3-6100L.jpg","img/I3-6100S.jpg"];
+					var n=$(this).index();
+					$("#imgbox img").attr("src",arr[n]);
+					$("#imgbox ul li").addClass("mohu");
+					$(this).removeClass("mohu")
+				});
+				//商品信息评论移入
+				$("#messageList ul li").click(function(){
+					var i = $(this).index();
+					$("#messageList ul li").css("background-color","")
+					$(this).css("background-color","#ccc")
+					$("#messageCon ul").css("display","none");
+					$("#messageCon ul").eq(i).css("display","block");
+				});
+				
+				
+			});
+			var arrCity = [["涪陵区","渝北区","南岸区"],["乐山市","自贡市","资阳市"],["郴州市","韶山","湘西"]];
+				function proChange(obj){
+					var pro = document.getElementById("province");
+					var city = document.getElementById("city");
+					//删除city下多余的option
+					if(city.options.length>1){
+						for(i = city.options.length-1;i>0;i--){
+							city.removeChild(city.options[i])
+						}
+					}
+					
+					//创建新的option,obj.value第一个sel的值（索引）
+					for(j=0;j<arrCity[obj.value].length;j++){
+						var textNode = document.createTextNode(arrCity[obj.value][j]);
+						var option = document.createElement("option");
+						option.appendChild(textNode);
+						city.appendChild(option);	
+					}
+					/*alert(obj.value)*/
+				}
+
+		</script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<nav class="navbar navbar-default">
+	      	<div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="glyphicon glyphicon-th-large"></span>
+		          </button>
+		          <a class="navbar-brand" href="index.html">Yuanrb.com</a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+		            <li><a href="index.html">首页</a></li>
+		            <li><a href="CPU.html">CPU</a></li>
+		            <li><a href="GPU.html">显卡</a></li>
+		            <li><a href="mainboard.html">主板</a></li>
+		            <li><a href="displayer.html">显示器</a></li>
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他<span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+		                <li><a href="memory.html">内存</a></li>
+		                <li><a href="power.html">电源</a></li>
+		                <li><a href="crate.html">机箱</a></li>
+		                <li class="divider"></li>
+		                <li><a href="hard-disk.html">固态硬盘</a></li>
+		                <li><a href="hard-disk.html">机械硬盘</a></li>
+		              </ul>
+		            </li>
+		          </ul>
+		          <!--搜索框-->
+		          <ul class="nav navbar-nav navbar-right">
+		          	<li>
+		          		<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="商品名称">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form>
+		          	</li>
+		          </ul>
+		        </div>
+	      	</div>
+    	</nav>
+		<!--本页内容开始-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5">
+					<div id="imgbox">
+						<img src="img/I3-6100B.jpg">
+					    <ul>
+					    	<li class="page01"></li>
+					        <li class="page02 mohu"></li>
+					        <li class="page03 mohu"></li>
+					    </ul>
+					</div>
+				</div>
+				<div class="col-md-7 list">
+					<h4>英特尔（Intel）酷睿双核 i3-6100 1151接口 盒装CPU处理器</h4>
+					<p>售价：￥<span>819.00</span></p>
+					<div>套餐：<div class="btn btn-default btn-sm">盒装</div>&nbsp;<div class="btn btn-default btn-sm">散片</div></div>
+					<div>赠品：<div class="btn btn-default">红海MINI CPU散热器</div></div>
+					<div id="count">购买数量：
+	            	 	<img class="left" src="img/left48.png">
+	            		<input type="text" value="1">
+	                	<img class="right" src="img/right48.png">
+	            	</div>
+	            	<div>配送：
+	            		<select class="btn btn-default btn-sm" id="province" onChange="proChange(this)">
+				        	<option value="-1" selected>请选择省份</option>
+				            <option value="0">重庆市</option>
+				            <option value="1">四川省</option>
+				            <option value="2">湖南省</option>
+				        </select>
+				        <select class="btn btn-default btn-sm" id="city">
+				        	<option value="-1">请输入区县</option>
+				        </select>
+	            	</div>
+	            	<input class="join btn btn-danger" type="button" value="加入购物车">
+	            	<div class="btn btn-success">★点击收藏</div>
+				</div>　
+			</div>
+			<div class="row" id="messageList">
+				<ul class="col-md-offset-5">
+					<li style="background-color:#CCCCCC;"><h4>商品主要信息</h4></li>
+					<li><h4>商品包装清单</h4></li>
+					<li><h4>商品评论(1w+)</h4></li>
+				</ul>
+			</div>
+			<div class="row" id="messageCon">
+				<ul class="col-md-offset-5" style="display: block;">
+					<li>商品名称：英特尔Core i3-6100</li>
+					<li>商品编号：2011989</li>
+					<li>类别：游戏/影音，家用/办公</li>
+					<li>接口：LGA 1151</li>
+					<li>系列：酷睿i3，Skylake</li>
+					<li>核心：双核</li>
+				</ul>
+				<ul class="col-md-offset-5">
+					<li>包装清单</li>
+					<li>处理器 x1</li>
+					<li>安装说明 x1</li>
+					<li>散热器 x1</li>
+					<li>&nbsp;</li>
+					<li>&nbsp;</li>
+				</ul>
+				<ul class="col-md-offset-5 comment">
+					<li>好好学习：<span>★★★★★</span><br />&nbsp;&nbsp;&nbsp;&nbsp;这款CPU价格实惠，日常办公用极好的!<i>2017.2.10</i></li>
+					<li>匿名会员：<span>★★★★</span><br />&nbsp;&nbsp;&nbsp;&nbsp;物流速度不够<i>2017.2.10</i></li>
+					<li>南广轩主：<span>★★★★★</span><br />&nbsp;&nbsp;&nbsp;&nbsp;价格合理，是正品<i>2017.2.8</i></li>
+					<li>12050：<span>★★★</span><br />&nbsp;&nbsp;&nbsp;&nbsp;一般般<i>2017.2.7</i></li>
+					<li>乖小猫：<span>★★★★★</span><br />&nbsp;&nbsp;&nbsp;&nbsp;很好很强大，玩网游足够了！<i>2017.2.1</i></li>
+					<li>&nbsp;</li>
+				</ul>
+			</div>
+		</div>
+		<!--商品介绍图片-->
+		<div class="container same">
+			<div class="row">
+				<div class="col-md-3"><h3>相似商品</h3></div>
+				<div class="col-md-8"><h3>产品功能介绍</h3></div>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<a href="#">
+						<img src="img/I3-6100-DIY2.jpg">
+    					<p>【浩天】英特尔CPU i3 6100华硕B150M-K希捷1T硬盘金士顿8G内存</p>
+    					<span>￥<i>2699.00</i></span>
+					</a>
+					<a style="padding-top: 50px;" href="#">
+						<img src="img/E3-1231V3.jpg">
+    					<p>英特尔（Intel）至强四核 E3-1231v3 1150接口 盒装CPU处理器</p>
+    					<span>￥<i>2099.00</i></span>
+					</a>
+					<a href="#">
+						<img src="img/I3-4170.jpg">
+    					<p>英特尔（Intel）酷睿双核 i3-4170 1150接口 盒装CPU处理器</p>
+    					<span>￥<i>799.00</i></span>
+					</a>
+				</div>
+				<img class="col-md-8" src="img/production3.jpg" />
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<a href="#">
+						<img src="img/I3-6100-DIY.jpg">
+    					<p>英特尔DIY全套I3 6100 CPU/B150主板套装 内存条 固态硬盘 机电 全</p>
+    					<span>￥<i>2499.00</i></span>
+					</a>
+				</div>
+				<img class="col-md-8" src="img/production1.jpg" />
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+				</div>
+				<img class="col-md-8" src="img/production2.jpg" />
+			</div>
+		</div>
+		<!--个人中心-->
+    	<div id="custome"><a href="customer.html"><img src="img/cum.jpg"></a></div>
+    	<!--右边购物车返回顶部-->
+    	<div id="toTop"><img src="img/toTop.png"></div>
+    	<!--购物车图标-->
+    	<div id="shopCar"><a href="shopCar.html"><img src="img/shop32.png"></a></div>
+    	   	<!--底部-->
+    	<div class="container" id="footer">
+    		<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4">
+    			<h4>客服热线</h4>
+    			<span class="num">400-600-1234</span><br />
+    			<span>周一至周日 8:00-18:00 </span>
+    		</div>
+    		<div class="col-md-8 col-sm-8 col-xs-8">
+    			<div class="row">
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt><a href="">售后服务</a></dt>
+	    				<dd><a href="">服务网点</a></dd>
+	    				<dd><a href="">自助服务</a></dd>
+	    				<dd><a href="">支持建议</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>购物帮助</dt>
+	    				<dd><a href="">个人中心</a></dd>
+	    				<dd><a href="">订单操作</a></dd>
+	    				<dd><a href="">账户管理</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>关于我们</dt>
+	    				<dd><a href="">新浪微博</a></dd>
+	    				<dd><a href="">腾讯微博</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>友情链接</dt>
+	    				<dd><a href="">链接</a></dd>
+	    				<dd><a href="">链接</a></dd>
+	    			</dl>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<span class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" style="color: darkgray;font-size: 12px;">Copyright © 2010 - 2017  南广轩主Yuanrb.com 版权所有 | 消费者维权热线：4006067733 经营证照</span>
+    		</div>
+    	</div>
+	</body>
+</html>

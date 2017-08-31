@@ -1,0 +1,331 @@
+[ 2017-07-02T21:05:03+08:00 ] 125.84.85.203 /index.php/Admin/Admin/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_admin` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_admin` WHERE ( uid = '1001' )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_admin_menus` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `yb_admin_menus`  [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant welcome - assumed 'welcome' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 26 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-02T21:05:08+08:00 ] 125.84.85.203 /index.php/Admin/Admin/searchArticle/channel_id/1/����
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '1' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-02T21:05:10+08:00 ] 125.84.85.203 /index.php/Admin/Admin/searchArticle/channel_id/2/����
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '2' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-02T21:25:18+08:00 ] 125.84.85.203 /index.php/Admin/Admin/searchArticle/channel_id/2/����
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '2' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-02T21:27:51+08:00 ] 125.84.85.203 /index.php/Admin/Admin/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+ERR: 1292:Incorrect datetime value: '' for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `yb_article` (`channel_id`,`content`,`title`,`summary`,`img_url`,`time`) VALUES ('-1','1、元字符   [拥有特殊含义的元字符]  \\d -> 匹配一个0-9的数字,相当于[0-9],和它相反的是\\D ->匹配一个除了0-9的任意字符   \\w -> 匹配一个0-9、a-z、A-Z、_的数字或字符,相当于[0-9a-zA-Z_]  \\s -> 匹配一个空白字符(空格、制表符...)   \\b -> 匹配一个单词的边界   \\t -> 匹配一个制表符   \\n -> 匹配一个换行   . -> 匹配一个除了\\n以外的任意字符   ^ -> 以某一个元字符开头   $ -> 以某一个元字符结尾   \\ -> 转移字符   x|y -> x或者y的一个   [xyz] -> x、y、z中的任意一个   [^xyz] -> 除了xyz中的任意一个字符   [a-z] -> 匹配a-z中的任意一个字符   [^a-z] -> 匹配除了a-z中的任意一个字符   () -> 正则中的分组    注意:   1)关于[]    a、[+] ->中括号中出现的所有字符都代表的是本身的意思     b、[12-65] ->这个不是12-65而是1/2-6/5三者中的一个    2)关于()     a、分组的作用是改变默认的优先级,例如:/^18|19$/,181、189、119、819、1819...都符合,而不是我们认为的18或19,但是改成/^(18|19)$/就是单纯的18或19了     b、可以在捕获大正则匹配的内容同时,把分组匹配的内容也进行捕获->分组捕获     c、分组引用,例如:/^(\\d)(\\w)\\2\\1$/,这里的\\2是和第二个分组出现一模样的内容,\\1是和第一个分组出现一模一样的内容,例如:\"0aa0\"就符合了     [代表数量的量词元字符]  * -> 0到多个   + -> 1到多个   ? -> 0到1个   {n} -> 出现n次   {n,} -> 出现n到多次   {n,m} -> 出现n到m次    注意:   1)关于?的几种情况     a、放在非量词元字符后面,代表出现0-1次     b、放在量词元字符后面,代表取消捕获时候的贪婪性,例如:reg=/\\d+/; reg.exec(\"2015\") -> \"2015\" 但是如果正则这样写 reg=/\\d+?/; reg.exec(\"2015\") -> \"2\"     c、在分组开头加?:,代表当前的分组只是匹配不进行捕获,例如:/^(?:\\d+)$/     d、在分组开头加?=,正向预查,例如:/^abcdef(?=1|2)$/ 只有\"abcdef1\"和\"abcdef2\"才符合     e、在分组开头加?!,负向预查,例如:/^abcdef(?!1|2)$/ 除了\"abcdef1\"和\"abcdef2\"不符合,其他的只要是\"abcdef(任何的东西)\"都符合    [代表本身意思的元字符]  除了以上的,在字面量方式中,我们出现的其他任意字符代表的都是自己本身的意思   var num=12;   var reg=/^\\w\"+num+\"$/; ->这里\"+num+\"不是把变量的值拼接,而这里的不管是\"还是+都是元字符   ->对于需要拼接字符串和变量的方式我们只能使用实例方式创建正则  2、修饰符   i -> ignoreCase 忽略字母的大小写   g -> global 全局匹配 (加上g可以解决正则捕获时候的懒惰性)   m -> multiline 多行匹配  3、项目中常用的正则   1)有效数字的   var reg=/^[+-]?(\\d|([1-9]\\d+))(\\.\\d+)?$/;    2)邮箱的   var reg = /^\\w+((-\\w+)|(\\.\\w+))*@[A-Za-z0-9]+((\\.|-)[A-Za-z0-9]+)*\\.[A-Za-z0-9]+$/;    3)电话的   var reg = /^1\\d{10}$/;    4)年龄在18-65之间的   var reg = /^((18|19)|([2-5]\\d)|(6[0-5]))$/;    5)中文姓名   var reg = /^[\\u4e00-\\u9fa5]{2,4}$/;    6)身份证   var reg = /^(\\d{6})(\\d{4})(\\d{2})(\\d{2})(?:\\d{2})(\\d)(?:\\d|X)$/;   //-> 12828(省市县) 1990(年) 12(月) 04(日) 06 1(奇数是男偶数是女) 7(数字或者X)  4、正则的匹配   reg.test([string]) ->true就是匹配成功  false->匹配不成功','test','test','','')
+ERR: 1292:Incorrect datetime value: '' for column 'time' at row 1
+ [ SQL语句 ] : INSERT INTO `yb_article` (`channel_id`,`content`,`title`,`summary`,`img_url`,`time`) VALUES ('-1','1、元字符   [拥有特殊含义的元字符]  \\d -> 匹配一个0-9的数字,相当于[0-9],和它相反的是\\D ->匹配一个除了0-9的任意字符   \\w -> 匹配一个0-9、a-z、A-Z、_的数字或字符,相当于[0-9a-zA-Z_]  \\s -> 匹配一个空白字符(空格、制表符...)   \\b -> 匹配一个单词的边界   \\t -> 匹配一个制表符   \\n -> 匹配一个换行   . -> 匹配一个除了\\n以外的任意字符   ^ -> 以某一个元字符开头   $ -> 以某一个元字符结尾   \\ -> 转移字符   x|y -> x或者y的一个   [xyz] -> x、y、z中的任意一个   [^xyz] -> 除了xyz中的任意一个字符   [a-z] -> 匹配a-z中的任意一个字符   [^a-z] -> 匹配除了a-z中的任意一个字符   () -> 正则中的分组    注意:   1)关于[]    a、[+] ->中括号中出现的所有字符都代表的是本身的意思     b、[12-65] ->这个不是12-65而是1/2-6/5三者中的一个    2)关于()     a、分组的作用是改变默认的优先级,例如:/^18|19$/,181、189、119、819、1819...都符合,而不是我们认为的18或19,但是改成/^(18|19)$/就是单纯的18或19了     b、可以在捕获大正则匹配的内容同时,把分组匹配的内容也进行捕获->分组捕获     c、分组引用,例如:/^(\\d)(\\w)\\2\\1$/,这里的\\2是和第二个分组出现一模样的内容,\\1是和第一个分组出现一模一样的内容,例如:\"0aa0\"就符合了     [代表数量的量词元字符]  * -> 0到多个   + -> 1到多个   ? -> 0到1个   {n} -> 出现n次   {n,} -> 出现n到多次   {n,m} -> 出现n到m次    注意:   1)关于?的几种情况     a、放在非量词元字符后面,代表出现0-1次     b、放在量词元字符后面,代表取消捕获时候的贪婪性,例如:reg=/\\d+/; reg.exec(\"2015\") -> \"2015\" 但是如果正则这样写 reg=/\\d+?/; reg.exec(\"2015\") -> \"2\"     c、在分组开头加?:,代表当前的分组只是匹配不进行捕获,例如:/^(?:\\d+)$/     d、在分组开头加?=,正向预查,例如:/^abcdef(?=1|2)$/ 只有\"abcdef1\"和\"abcdef2\"才符合     e、在分组开头加?!,负向预查,例如:/^abcdef(?!1|2)$/ 除了\"abcdef1\"和\"abcdef2\"不符合,其他的只要是\"abcdef(任何的东西)\"都符合    [代表本身意思的元字符]  除了以上的,在字面量方式中,我们出现的其他任意字符代表的都是自己本身的意思   var num=12;   var reg=/^\\w\"+num+\"$/; ->这里\"+num+\"不是把变量的值拼接,而这里的不管是\"还是+都是元字符   ->对于需要拼接字符串和变量的方式我们只能使用实例方式创建正则  2、修饰符   i -> ignoreCase 忽略字母的大小写   g -> global 全局匹配 (加上g可以解决正则捕获时候的懒惰性)   m -> multiline 多行匹配  3、项目中常用的正则   1)有效数字的   var reg=/^[+-]?(\\d|([1-9]\\d+))(\\.\\d+)?$/;    2)邮箱的   var reg = /^\\w+((-\\w+)|(\\.\\w+))*@[A-Za-z0-9]+((\\.|-)[A-Za-z0-9]+)*\\.[A-Za-z0-9]+$/;    3)电话的   var reg = /^1\\d{10}$/;    4)年龄在18-65之间的   var reg = /^((18|19)|([2-5]\\d)|(6[0-5]))$/;    5)中文姓名   var reg = /^[\\u4e00-\\u9fa5]{2,4}$/;    6)身份证   var reg = /^(\\d{6})(\\d{4})(\\d{2})(\\d{2})(?:\\d{2})(\\d)(?:\\d|X)$/;   //-> 12828(省市县) 1990(年) 12(月) 04(日) 06 1(奇数是男偶数是女) 7(数字或者X)  4、正则的匹配   reg.test([string]) ->true就是匹配成功  false->匹配不成功','test','test','','')
+
+[ 2017-07-02T21:28:30+08:00 ] 125.84.85.203 /index.php/Admin/Admin/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: INSERT INTO `yb_article` (`channel_id`,`content`,`title`,`summary`,`img_url`,`time`) VALUES ('2','1、元字符   [拥有特殊含义的元字符]  \\d -> 匹配一个0-9的数字,相当于[0-9],和它相反的是\\D ->匹配一个除了0-9的任意字符   \\w -> 匹配一个0-9、a-z、A-Z、_的数字或字符,相当于[0-9a-zA-Z_]  \\s -> 匹配一个空白字符(空格、制表符...)   \\b -> 匹配一个单词的边界   \\t -> 匹配一个制表符   \\n -> 匹配一个换行   . -> 匹配一个除了\\n以外的任意字符   ^ -> 以某一个元字符开头   $ -> 以某一个元字符结尾   \\ -> 转移字符   x|y -> x或者y的一个   [xyz] -> x、y、z中的任意一个   [^xyz] -> 除了xyz中的任意一个字符   [a-z] -> 匹配a-z中的任意一个字符   [^a-z] -> 匹配除了a-z中的任意一个字符   () -> 正则中的分组    注意:   1)关于[]    a、[+] ->中括号中出现的所有字符都代表的是本身的意思     b、[12-65] ->这个不是12-65而是1/2-6/5三者中的一个    2)关于()     a、分组的作用是改变默认的优先级,例如:/^18|19$/,181、189、119、819、1819...都符合,而不是我们认为的18或19,但是改成/^(18|19)$/就是单纯的18或19了     b、可以在捕获大正则匹配的内容同时,把分组匹配的内容也进行捕获->分组捕获     c、分组引用,例如:/^(\\d)(\\w)\\2\\1$/,这里的\\2是和第二个分组出现一模样的内容,\\1是和第一个分组出现一模一样的内容,例如:\"0aa0\"就符合了     [代表数量的量词元字符]  * -> 0到多个   + -> 1到多个   ? -> 0到1个   {n} -> 出现n次   {n,} -> 出现n到多次   {n,m} -> 出现n到m次    注意:   1)关于?的几种情况     a、放在非量词元字符后面,代表出现0-1次     b、放在量词元字符后面,代表取消捕获时候的贪婪性,例如:reg=/\\d+/; reg.exec(\"2015\") -> \"2015\" 但是如果正则这样写 reg=/\\d+?/; reg.exec(\"2015\") -> \"2\"     c、在分组开头加?:,代表当前的分组只是匹配不进行捕获,例如:/^(?:\\d+)$/     d、在分组开头加?=,正向预查,例如:/^abcdef(?=1|2)$/ 只有\"abcdef1\"和\"abcdef2\"才符合     e、在分组开头加?!,负向预查,例如:/^abcdef(?!1|2)$/ 除了\"abcdef1\"和\"abcdef2\"不符合,其他的只要是\"abcdef(任何的东西)\"都符合    [代表本身意思的元字符]  除了以上的,在字面量方式中,我们出现的其他任意字符代表的都是自己本身的意思   var num=12;   var reg=/^\\w\"+num+\"$/; ->这里\"+num+\"不是把变量的值拼接,而这里的不管是\"还是+都是元字符   ->对于需要拼接字符串和变量的方式我们只能使用实例方式创建正则  2、修饰符   i -> ignoreCase 忽略字母的大小写   g -> global 全局匹配 (加上g可以解决正则捕获时候的懒惰性)   m -> multiline 多行匹配  3、项目中常用的正则   1)有效数字的   var reg=/^[+-]?(\\d|([1-9]\\d+))(\\.\\d+)?$/;    2)邮箱的   var reg = /^\\w+((-\\w+)|(\\.\\w+))*@[A-Za-z0-9]+((\\.|-)[A-Za-z0-9]+)*\\.[A-Za-z0-9]+$/;    3)电话的   var reg = /^1\\d{10}$/;    4)年龄在18-65之间的   var reg = /^((18|19)|([2-5]\\d)|(6[0-5]))$/;    5)中文姓名   var reg = /^[\\u4e00-\\u9fa5]{2,4}$/;    6)身份证   var reg = /^(\\d{6})(\\d{4})(\\d{2})(\\d{2})(?:\\d{2})(\\d)(?:\\d|X)$/;   //-> 12828(省市县) 1990(年) 12(月) 04(日) 06 1(奇数是男偶数是女) 7(数字或者X)  4、正则的匹配   reg.test([string]) ->true就是匹配成功  false->匹配不成功','test','test','#','2017-07-02') [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '2' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-02T21:29:43+08:00 ] 125.84.85.203 /index.php/Admin/Admin/deleteArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: DELETE FROM `yb_article` WHERE ( id = '12' ) [ RunTime:0.0270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-02T21:29:49+08:00 ] 125.84.85.203 /index.php/Admin/Admin/searchArticle/channel_id/2/����
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '2' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '2' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-02T21:30:48+08:00 ] 125.84.85.203 /index.php/Admin/Admin/searchArticle/channel_id/1/����
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '1' ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '1' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-02T21:34:03+08:00 ] 125.84.85.203 /index.php/Admin/Admin/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: INSERT INTO `yb_article` (`channel_id`,`content`,`title`,`summary`,`img_url`,`time`) VALUES ('1','站主周一到周五是上班时间，晚上回家之后完成晚饭已经不早了，平时也会玩一会的游戏，所以网站建设主要是在周末。','关于网站内容的更新问题','大概讲一下更新的速度、内容等','#','2017-07-02') [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '1' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-02T21:34:08+08:00 ] 125.84.85.203 /index.php/Admin/Admin/searchArticleOne
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '13' )  [ RunTime:0.0010s ]
+
+[ 2017-07-02T21:36:38+08:00 ] 125.84.85.203 /index.php/Admin/Admin/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: UPDATE `yb_article` SET `channel_id`='-1',`content`='站主周一到周五是上班时间，晚上回家之后完成晚饭已经不早了，平时也会玩一会的游戏，所以网站建设主要是在周末。而整体的UI有很多敌方需要修改（谁能赐我一位设计师），但大的风格，框架不会改变。所以最近时间都主要是界面和结构的修改，文章更新不会有很多！',`title`='关于网站内容的更新问题',`summary`='大概讲一下更新的速度、内容等',`img_url`='#',`time`='2017-07-02 00:00:00' WHERE ( id='13' ) [ RunTime:0.0200s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '-1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '-1' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-02T21:36:46+08:00 ] 125.84.85.203 /index.php/Admin/Admin/searchArticleOne
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( id = '13' )  [ RunTime:0.0000s ]
+
+[ 2017-07-02T21:36:50+08:00 ] 125.84.85.203 /index.php/Admin/Admin/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: UPDATE `yb_article` SET `channel_id`='1',`content`='站主周一到周五是上班时间，晚上回家之后完成晚饭已经不早了，平时也会玩一会的游戏，所以网站建设主要是在周末。而整体的UI有很多敌方需要修改（谁能赐我一位设计师），但大的风格，框架不会改变。所以最近时间都主要是界面和结构的修改，文章更新不会有很多！',`title`='关于网站内容的更新问题',`summary`='大概讲一下更新的速度、内容等',`img_url`='#',`time`='2017-07-02 00:00:00' WHERE ( id='13' ) [ RunTime:0.0180s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '1' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-02T21:41:56+08:00 ] 125.84.85.203 /index.php/Admin/Admin/addArticle
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: INSERT INTO `yb_article` (`channel_id`,`content`,`title`,`summary`,`img_url`,`time`) VALUES ('1','最开始想的一套UI已经慢慢的被完全取缔，很多地方还会有所小改；而后台管理，最开始打算使用现成的CMS，后来还是决定自己慢慢的来做，具体功能参照当前流行的CMS功能（这是一个很大的工作量）；站主目前技术能力有限（贪玩），平时将会记录想到的问题，依次的实现！','关于网站建设的进度','主要讲一下当前建设的进度和即将修改的功能','#','2017-07-02') [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `yb_article` WHERE ( channel_id = '1' ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `yb_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `yb_article` WHERE ( channel_id = '1' ) ORDER BY time desc LIMIT 0,10   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant newsManage - assumed 'newsManage' D:\freehost\ngxz92\web\Application\Admin\Controller\AdminController.class.php 第 48 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

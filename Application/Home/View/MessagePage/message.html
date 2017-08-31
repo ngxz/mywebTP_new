@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>资讯推荐-袁茹兵个人网站</title>
+		<include file="./Application/Home/View/Public/link.html"/>
+		<style type="text/css">
+			.contentLeft ul{overflow: hidden;}
+			.contentLeft ul li{width:100%;overflow: hidden;margin-bottom: 10px;text-algin:center;}
+			.contentLeft ul li .imgBox{width:200px;float: left;}
+			.contentLeft ul li img{float: left;width:200px;height:150px;}
+			.contentBox{float: left;margin-left: 20px;}
+			.contentLeft ul li p{text-algin:center;}
+			.contentBox span{color:gray;text-algin:center;display:block;width:100%;}
+			.contentBox h4 a{font-size:18px;}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+				$(".nav>li").eq(1).addClass("active");
+			})
+    		//type值为0，下一页，为-1，上一页，为正到指定页
+    		function turnPage(pageNo,type){
+    			var pageNo = parseInt(pageNo);
+    			if(type == 0){
+    				pageNo += 1;
+    				if(pageNo > parseInt('{$page.total}'/10)+1){
+    					alert('已经是最后一页了！');
+    					pageNo = parseInt('{$page.total}'/10)+1;
+    					return;
+    				}
+    			}else if(type == -1){
+    				pageNo -= 1;
+    				if(pageNo == 0){
+    					alert('已经是第一页了！');
+    					pageNo = 1;
+    					return;
+    				}
+    			}else{
+    				pageNo = type;
+    			}
+    			location.href = "__ROOT__/index.php?m=Home&c=MessagePage&a=message&pageNo ="+pageNo+"&pageNo="+pageNo;
+    		}
+		</script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<include file="./Application/Home/View/Public/_header.html"/>
+		<!--本页独立内容-->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<h2>资讯列表</h2>
+					<p><span><a href="#">按发布时间排序</a></span></p>
+				</div>
+				<div class="col-md-2 text-center">
+					<h2>资讯分类</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-10">
+					<div class="contentLeft">
+						<ul>
+							<volist name="data.rows" id="rows">
+								<li>
+								<div class="imgBox">
+									<img class="img-responsive" src="__PUBLIC__{$rows.img_url}" onerror="this.src='__PUBLIC__/img/error.png'">
+								</div>
+								<div class="contentBox">
+									<h4><a href="__ROOT__/ArticleContent/article_content/id/{$rows.id}.html">主题：{$rows.title}</a></h4>
+									<span>发布时间：{$rows.time}</span>
+									<p>摘要：{$rows.summary}</p>
+									<p><a href="__ROOT__/ArticleContent/article_content/id/{$rows.id}.html" class="btn btn-default">详情</a></p>
+								</div>
+							</li>
+							</volist>
+						</ul>	
+					</div>
+				</div>
+				<!-- 分类 -->
+				<div class="col-md-2">
+					<ul>
+ 						<li><a href="#">本站动态</a></li>
+ 						<li><a href="#">分类2</a></li>
+ 						<li><a href="#">分类3</a></li>
+ 						<li><a href="#">分类4</a></li>
+ 					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 分页 -->
+		<nav aria-label="Page navigation" class="text-center">
+		  <ul class="pagination">
+		  	<li><a href="javascript:void(0);">第{$data.pageNo}页</a></li>
+		    <li id="pageLeft">
+		      <a href="javascript:turnPage('{$data.pageNo}',-1);" aria-label="Previous">
+		        <span aria-hidden="true">&laquo;</span>
+		      </a>
+		    </li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',1);">1</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',2);">2</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',3);">3</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',4);">4</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',5);">5</a></li>
+		    <li>
+		      <a href="javascript:turnPage('{$data.pageNo}',0);" aria-label="Next">
+		        <span aria-hidden="true">&raquo;</span>
+		      </a>
+		    </li>
+		    <li><a href="javascript:void(0);">共{$data.total}条数据</a></li>
+		  </ul>
+		</nav>
+		<!--底部-->
+      	<include file="./Application/Home/View/Public/_footer.html"/>
+      	<include file="./Application/Home/View/Public/login.html"/>
+	</body>
+</html>

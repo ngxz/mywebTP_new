@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="bootstrap-3.3.0-dist/dist/css/bootstrap.min.css" />
+		<style type="text/css">
+			.tooltip-inner{background-color: red; width: 80px;}
+			.tooltip.right .tooltip-arrow{border-right-color: red;}
+			#names,#passkey{width: 105%;}
+		</style>
+		<link rel="stylesheet" href="css/common.css" />
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript">
+			$(function(){
+				$("#chose").click(function(){
+					$("#file").click();
+				});
+				//
+				$("#file").change(function(){
+					var filet = $("#file")[0].files[0].type;
+					//alert(filet)
+					var fileType = "image/jpeg,image/png,image/gif";
+					if(fileType.indexOf(filet)>=0){
+						alert("上传成功！");
+						$("#fileText").val($(this).val());
+					}else{
+						$("#fileText").val();
+						alert("只支持png、jpeg及gif格式！")
+					}
+				});
+			});
+			//失去焦点函数
+			function inblur(obj,reg){
+				 //边框
+					$(obj).parent().removeClass("has-success has-error");
+					//图标
+					$(obj).parent().find("span").removeClass("glyphicon-remove glyphicon-remove");
+					if(reg.test(obj.value)){
+						//边框
+						$(obj).parent().addClass("has-success");
+						//图标
+						$(obj).parent().find("span").addClass("glyphicon-ok").css("color","green").show();
+						//文字
+						$(obj).tooltip("hide");
+						return true;
+					}else{
+						//图标
+						$(obj).parent().find("span").addClass("glyphicon-remove").css("color","red").show();
+						//字
+						$(obj).tooltip("show");
+						//边框
+						$(obj).parent().addClass("has-error");
+						return false;
+					}
+			}
+			function check(){
+				var names = document.getElementById("names");
+				var passkey = document.getElementById("passkey");
+				var r1 = inblur(names,/^[\u4e00-\u9fa5]{2,8}$/);
+				var r2 = inblur(passkey,/^[a-zA-Z0-9_]{6,12}$/);
+				var nationality = document.getElementById("nationality");
+				var r3 = nationality.value;
+				//alert(r3);
+				if((r1&&r2)&&r3){
+					alert("注册成功！");
+					return true;
+				}else{
+					alert("请检查输入的信息！");
+					return false;
+				}
+			}
+		</script>
+	</head>
+
+	<body>
+		<nav class="navbar navbar-default">
+	      	<div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="glyphicon glyphicon-th-large"></span>
+		          </button>
+		          <a class="navbar-brand" href="index.html">Yuanrb.com</a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+		            <li><a href="index.html">首页</a></li>
+		            <li><a href="CPU.html">CPU</a></li>
+		            <li><a href="GPU.html">显卡</a></li>
+		            <li><a href="mainboard.html">主板</a></li>
+		            <li><a href="displayer.html">显示器</a></li>
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他<span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+		                <li><a href="memory.html">内存</a></li>
+		                <li><a href="power.html">电源</a></li>
+		                <li><a href="crate.html">机箱</a></li>
+		                <li class="divider"></li>
+		                <li><a href="hard-disk.html">固态硬盘</a></li>
+		                <li><a href="hard-disk.html">机械硬盘</a></li>
+		              </ul>
+		            </li>
+		          </ul>
+		          <!--搜索框-->
+		          <ul class="nav navbar-nav navbar-right">
+		          	<li>
+		          		<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="商品名称">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form>
+		          	</li>
+		          </ul>
+		        </div>
+	      	</div>
+    	</nav>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-6 col-xs-offset-3" style="background:gainsboro;margin-top: 40px;">
+					<form id="oform" onsubmit="return check()" action="http://www.yuanrb.com" method="get" style="width: 60%;height: 80%;" class="center-block">
+						<div class="form-group form-inline" style="padding-top: 50px;">
+							<div class="input-group">
+								<div class="input-group-addon">姓名</div>
+								<input id="names" data-toggle="tooltip" data-trigger="manual" data-placement="right" title="输入有误！" type="text" placeholder="2-8个中文" class="form-control" onblur="inblur(this,/^[\u4e00-\u9fa5]{2,8}$/)"/>
+								<span class="glyphicon form-control-feedback"></span>
+							</div>
+						</div>
+						<div class="form-group form-inline">
+							<div class="input-group">
+								<div class="input-group-addon">密码</div>
+								<input id="passkey" data-toggle="tooltip" data-trigger="manual" data-placement="right" title="输入有误！" type="password" placeholder="6-12个非中文字符" class="form-control" onblur="inblur(this,/^[a-zA-Z0-9_]{6,12}$/)" />
+								<span class="glyphicon form-control-feedback"></span>
+							</div>
+						</div>
+						<!---->
+						<div class="form-group form-inline">
+							<label>性别：</label>
+							<div class=" radio-inline">
+								<input type="radio"checked name="gender" value="1"/>
+								<label>男</label>
+							</div>
+							<div class="radio-inline">
+								<input type="radio" name="gender" value="2"/>
+								<label>女</label>
+							</div>
+						</div>
+						<!---->
+						<div class="form-group form-inline">
+							<label>国籍：</label>
+							<select class="form-control" style="width: 55%;" id="nationality">
+								<option value="-1">请选择</option>
+								<option value="1">中国</option>
+								<option value="2">美国</option>
+								<option value="3">俄罗斯</option>
+							</select>
+						</div>
+						<!---->
+						<div class="form-group form-inline">
+							<label>头像：</label>
+							<input type="file" style="display: none;" id="file"/>
+							<input type="text" value="上传图片" style="width: 40%;" id="fileText"/>
+							<input type="button" value="选择" id="chose"/>
+						</div>
+						<!---->
+						<div class="form-group form-inline">
+							<label>签名：</label>
+							<textarea class="form-control"></textarea>
+						</div>
+						<div class="form-group center-block">
+							<input type="reset" class="btn btn-warning btn-sm" value="清空" style="margin-left: 50px;"/>
+							<input type="submit" class="btn btn-info btn-sm" value="注册"/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		   	<!--底部-->
+    	<div class="container" id="footer">
+    		<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4">
+    			<h4>客服热线</h4>
+    			<span class="num">400-600-1234</span><br />
+    			<span>周一至周日 8:00-18:00 </span>
+    		</div>
+    		<div class="col-md-8 col-sm-8 col-xs-8">
+    			<div class="row">
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt><a href="">售后服务</a></dt>
+	    				<dd><a href="">服务网点</a></dd>
+	    				<dd><a href="">自助服务</a></dd>
+	    				<dd><a href="">支持建议</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>购物帮助</dt>
+	    				<dd><a href="">个人中心</a></dd>
+	    				<dd><a href="">订单操作</a></dd>
+	    				<dd><a href="">账户管理</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>关于我们</dt>
+	    				<dd><a href="">新浪微博</a></dd>
+	    				<dd><a href="">腾讯微博</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>友情链接</dt>
+	    				<dd><a href="">链接</a></dd>
+	    				<dd><a href="">链接</a></dd>
+	    			</dl>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<span class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" style="color: darkgray;font-size: 12px;">Copyright © 2010 - 2017  南广轩主Yuanrb.com 版权所有 | 消费者维权热线：4006067733 经营证照</span>
+    		</div>
+    	</div>
+	</body>
+</html>

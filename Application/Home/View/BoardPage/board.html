@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>留言板-袁茹兵个人网站</title>
+		<include file="./Application/Home/View/Public/link.html"/>
+		<style>
+			.contentLeft ul{overflow: hidden;}
+			.contentLeft ul li{width: 100%;overflow: hidden;margin-bottom: 5px;}
+			.contentLeft ul li img{float: left;}
+			.contentLeft ul li .contentBox{float: left;margin-left: 20px;}
+			.contentBox span{color:gray;}
+			/*feedback*/
+			.feedback{width:500px;margin:0 auto;}
+			.feedback input{height: 44px;width: 480px;padding: 0 10px;font-size: 20px;line-height: 40px;border: 1px solid #d3c0a8;}
+			.feedback textarea.content{height: 100px;width: 480px;padding: 0 10px;font-size: 20px;line-height: 40px;border: 1px solid #d3c0a8;}
+			.feedback label{display: block;margin: 24px 0 14px 0;}
+			.feedback input[type=button]{width: 388px;background-color: #9c7652;color: white;font-size: 20px;border: none;text-align: center;margin:30px 0 0 10%;}
+			.feedback input[type=button]:hover{cursor: pointer;}
+			.feedback .codeBox input{width: 268px;float: left;}
+			.feedback .codeBox a{display: inline-block;text-align: center;line-height:44px ;}
+			.feedback .codeBox a img{display: inline-block;text-align: center;line-height:34px ;padding-top: 10px;margin: 0 10px;}
+		</style>
+		<script type="text/javascript">
+			$(function(){
+				$(".nav>li").eq(4).addClass("active");
+			})
+			//type值为0，下一页，为-1，上一页，为正到指定页
+			function turnPage(pageNo,type){
+				var pageNo = parseInt(pageNo);
+				if(type == 0){
+					pageNo += 1;
+					if(pageNo > parseInt('{$page.total}'/10)+1){
+						alert('已经是最后一页了！');
+						pageNo = parseInt('{$page.total}'/10)+1;
+						return;
+					}
+				}else if(type == -1){
+					pageNo -= 1;
+					if(pageNo == 0){
+						alert('已经是第一页了！');
+						pageNo = 1;
+						return;
+					}
+				}else{
+					pageNo = type;
+				}
+				location.href = "__ROOT__/index.php?c=boardPage&a=boardLoad&pageNo ="+pageNo+"&pageNo="+pageNo;
+			}
+			//打开留言窗
+			function openfeedback(){
+			    showLoginForm();
+			    setTimeout(function(){
+			        $('#loginModal').modal('show');    
+			    }, 230);
+			    
+			}
+			function showLoginForm(){
+			    $('#loginModal .registerBox').fadeOut('fast',function(){
+			        $('.loginBox').fadeIn('fast');
+			        $('.register-footer').fadeOut('fast',function(){
+			            $('.login-footer').fadeIn('fast');    
+			        });
+			        
+			        $('.modal-title').html('用户留言');
+			    });       
+			     $('.error').removeClass('alert alert-danger').html(''); 
+			}
+		</script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<include file="./Application/Home/View/Public/_header.html"/>
+    	<!-- 本页独立 -->
+    	<div class="container">
+			<!--内容-->
+			<div class="contentLeft">
+				<ul>
+					<volist name="data.rows" id="rows">
+						<li>
+							<a href="__ROOT__/ArticleContent/article_content/id/{$rows.id}.html">
+								<img src="__PUBLIC__{$rows.img_url}" width="100px" height="100px" onerror="this.src='__PUBLIC__/img/default_icon.jpg'"/>
+								<div class="contentBox">
+									<h4>{$rows.title}</h4>
+									<span>{$rows.author} {$rows.time}</span>
+									<p>{$rows.content}</p>
+								</div>
+							</a>
+						</li>
+					</volist>
+				</ul>
+			</div>
+		</div>
+   		<!-- 分页 -->
+		<nav aria-label="Page navigation" class="text-center">
+		  <ul class="pagination">
+		  	<li><a href="javascript:void(0);">第{$data.pageNo}页</a></li>
+		    <li id="pageLeft">
+		      <a href="javascript:turnPage('{$data.pageNo}',-1);" aria-label="Previous">
+		        <span aria-hidden="true">&laquo;</span>
+		      </a>
+		    </li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',1);">1</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',2);">2</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',3);">3</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',4);">4</a></li>
+		    <li><a href="javascript:turnPage('{$data.pageNo}',5);">5</a></li>
+		    <li>
+		      <a href="javascript:turnPage('{$data.pageNo}',0);" aria-label="Next">
+		        <span aria-hidden="true">&raquo;</span>
+		      </a>
+		    </li>
+		    <li><a href="javascript:void(0);">共{$data.total}条数据</a></li>
+		  </ul>
+		</nav>
+		<!-- 留言表单 -->
+	      <!--  -->
+	      <div class="modal fade login" id="loginModal">
+	      <div class="modal-dialog login animated">
+	  		      <div class="modal-content" style="width: 500px;">
+	  		         <div class="modal-header">
+	                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button>
+	                      <h4 class="modal-title">留言表单</h4>
+	                  </div> 
+	                  <div class="modal-body feedback">  
+	                      <div class="box">
+	                           <div class="content">
+	                              <div class="error"></div>
+	                              <div class="form loginBox">
+	                              	<form action="__ROOT__/index.php/Admin/Admin/login" accept-charset="UTF-8" method="post">
+										<div class="feedbackTitle">
+											<label>留言标题</label>
+											<input type="text" class="form-control" name="title" id="title" onblur="blurCheck(this)" />
+										</div>
+										<div class="feedbackTitle">
+											<label>联系方式</label>
+											<input type="text" class="form-control" name="phone" id="phone" onblur="phoneCheck(this)"/>
+										</div>
+										<div class="feedbackTitle">
+											<label>留言内容</label>
+											<textarea name="content" class="form-control content" id="content" onblur="blurCheck(this)"></textarea>
+										</div>
+										<div class="codeBox">
+											<label for="code">验证码</label>
+											<input type="text" class="form-control" name="code" id="code" onblur="blurCheck(this)" />
+											<a href="javascript:void(0);" onclick="UpdateCaptcha(this)" id="captcha">
+												<img src="#"/><span>点击刷新</span>
+											</a>
+										</div>
+										<input type="button" class="btn btn-default" value="提交" onclick="FeedbackSubmit()" />
+									</form>
+	                              </div>
+	                           </div>
+	                      </div>
+	                      <div class="box">
+	                          <div class="content registerBox" style="display:none;">
+	                           <div class="form">
+	                              <form method="post" data-remote="true" action="/register" accept-charset="UTF-8">
+	                              <input id="uid" class="form-control" type="text" placeholder="帐号" name="uid">
+	                              <input id="pwd" class="form-control" type="password" placeholder="密码" name="pwd">
+	                              <input class="btn btn-default btn-register" type="submit" value="注册">
+	                              </form>
+	                              </div>
+	                          </div>
+	                      </div>
+	                      <div></div>
+	                  </div>       
+	  		      </div>
+	      </div>
+	  </div>
+      	<include file="./Application/Home/View/Public/_footer.html"/>
+      	<include file="./Application/Home/View/Public/login.html"/>
+	</body>
+</html>

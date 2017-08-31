@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>导航栏</title>
+		<link rel="stylesheet" href="bootstrap-3.3.0-dist/dist/css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+		<script type="text/javascript" src="bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/index.js"></script>
+		<script type="text/javascript" src="js/common.js"></script>
+	</head>
+	<body>
+		<!--导航开始-->
+		<nav class="navbar navbar-default">
+	      	<div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <span class="glyphicon glyphicon-th-large"></span>
+		          </button>
+		          <a class="navbar-brand" href="index.html">Yuanrb.com</a>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav">
+		            <li class="active"><a href="#">首页</a></li>
+		            <li><a href="CPU.html">CPU</a></li>
+		            <li><a href="GPU.html">显卡</a></li>
+		            <li><a href="mainboard.html">主板</a></li>
+		            <li><a href="displayer.html">显示器</a></li>
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown">其他<span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+		                <li><a href="memory.html">内存</a></li>
+		                <li><a href="power.html">电源</a></li>
+		                <li><a href="crate.html">机箱</a></li>
+		                <li class="divider"></li>
+		                <li><a href="hard-disk.html">固态硬盘</a></li>
+		                <li><a href="hard-disk.html">机械硬盘</a></li>
+		              </ul>
+		            </li>
+		          </ul>
+		          <!--搜索框-->
+		          <ul class="nav navbar-nav navbar-right">
+		          	<li>
+		          		<form class="navbar-form navbar-left" role="search">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="商品名称">
+							</div>
+							<button type="submit" class="btn btn-default">搜索</button>
+						</form>
+		          	</li>
+		          </ul>
+		        </div>
+	      	</div>
+    	</nav>
+    	<!--banner开始-->
+    	<div class="container">
+    		<!--左边banner-->
+    		<div id="banner">
+    			<a href="active.html"><img id="imgs" src="img/banner1.jpg"/></a>
+    			<div id="icon"><img src="img/iml_05.png"><img src="img/iml_03.png"><img src="img/iml_03.png"><img src="img/iml_03.png"></div>
+    		</div>
+    		<!--右边登录-->
+    		<div id="login">
+    			<form method="get" action="http://www.yuanrb.com" id="oform" onsubmit="return check()">
+    				<div class="form-group form-inline">
+						<div class="input-group">
+							<div class="input-group-addon">帐号</div>
+							<input id="names" data-toggle="tooltip" data-trigger="manual" data-placement="right" title="X" type="text" placeholder="您的帐号" class="form-control" onblur="inblur(this,/^[\u4e00-\u9fa5]{2,8}$/)"/>
+							<span class="glyphicon form-control-feedback"></span>
+						</div>
+					</div>
+					<div class="form-group form-inline">
+						<div class="input-group">
+							<div class="input-group-addon">密码</div>
+							<input id="passkey" data-toggle="tooltip" data-trigger="manual" data-placement="right" title="X" type="password" placeholder="您的密码" class="form-control" onblur="inblur(this,/^[a-zA-Z0-9_]{6,12}$/)" />
+							<span class="glyphicon form-control-feedback"></span>
+						</div>
+					</div>
+					<div class="form-group center-block btnLast">
+						<input class="btn btn-success" type="submit" value="登录" />
+						<a href="register.html"><input class="btn btn-warning" type="button" value="新人注册" /></a>
+					</div>
+    			</form>
+    			<!--登录下方-->
+    			<div id="notes">
+    				<div class="notesTitle">
+    					<ul>
+    						<li style="background-color: #ccc;"><a href="">公告</a></li>
+    						<li><a href="">促销</a></li>
+    						<li><a href="">更多</a></li>
+    					</ul>
+    				</div>
+    				<div class="notesContent">
+    					<ul class="firstNote">
+    						<li><a href="">关于积分变更、转存、双倍积分的通知</a></li>
+    						<li><a href="">2017新年会员有礼活动开始啦！</a></li>
+    						<li><a href="">提建议有奖活动长期开放！</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    					</ul>
+    					<ul>
+    						<li><a href="">2017新春促销活动将于2月1号开启！</a></li>
+    						<li><a href="">开学季装机好优惠！</a></li>
+    						<li><a href="">提建议有奖活动长期开放！</a></li>
+    						<li><a href="">配件闹元宵，主板低至8折</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    					</ul>
+    					<ul>
+    						<li><a href="">关于积分变更、转存、双倍积分的通知</a></li>
+    						<li><a href="">2017新年会员有礼活动开始啦！</a></li>
+    						<li><a href="">提建议有奖活动长期开放！</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    						<li><a href="">年底积分清零延时通知</a></li>
+    					</ul>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+    	<!--热门单品-->
+    	<div class="container" id="hotBox">
+    		<h2>热门单品</h2>
+    		<!--第一列-->
+    		<ul class="hotBox row firstUl">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6" id="hotCtrol">
+    				<dl>
+    					<dd style="background-color: #ccc;">&nbsp;&nbsp;<a href="">新品上架</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">限时折扣</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">满额优惠</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">近期畅销</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">清仓促销</a></dd>
+    				</dl>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+	    				<img src="img/FX-8300.jpg">
+	    				<p>AMD FX系列 FX-8300 八核</p>
+	    				<span>￥799.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/B150M.jpg">
+    					<p>技嘉  GIGABYTE B150M</p>
+    					<span>￥499.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/I7-7700K.jpg">
+    					<p>英特尔（Intel）酷睿四核I7-7700k</p>
+    					<span>￥2799.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    		<!--第二列-->
+    		<ul class="hotBox row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6" id="hotCtrol">
+    				<dl>
+    					<dd>&nbsp;&nbsp;<a href="">新品上架</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">限时折扣</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">满额优惠</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">近期畅销</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">清仓促销</a></dd>
+    				</dl>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="productionCPU.html">
+	    				<img src="img/I5-6500.jpg">
+	    				<p>英特尔 intel I5-6500</p>
+	    				<span>￥2469.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/A88XM-E45 V2.jpg">
+    					<p>微星（MSI）A88XM-E45 V2</p>
+    					<span>￥459.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/GTX1050Ti.jpg">
+    					<p>技嘉  GIGABYTE GTX1050Ti</p>
+    					<span>￥2299.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    		<!--3-->
+    		<ul class="hotBox row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6" id="hotCtrol">
+    				<dl>
+    					<dd>&nbsp;&nbsp;<a href="">新品上架</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">限时折扣</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">满额优惠</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">近期畅销</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">清仓促销</a></dd>
+    				</dl>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+	    				<img src="img/iGame1050 U-2GD5 GTX1050.jpg">
+	    				<p>七彩虹 烈焰战神2GD5 GTX1050</p>
+	    				<span>￥2469.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/B150M.jpg">
+    					<p>技嘉  GIGABYTE B150M</p>
+    					<span>￥499.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/GTX1050Ti.jpg">
+    					<p>技嘉  GIGABYTE GTX1050Ti</p>
+    					<span>￥2299.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    		<!--4-->
+    		<ul class="hotBox row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6" id="hotCtrol">
+    				<dl>
+    					<dd>&nbsp;&nbsp;<a href="">新品上架</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">限时折扣</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">满额优惠</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">近期畅销</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">清仓促销</a></dd>
+    				</dl>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+	    				<img src="img/RX470D 4G D5.jpg">
+	    				<p>蓝宝石RX470D 4G D5 DX12</p>
+	    				<span>￥4469.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/MSI-B250M.jpg">
+    					<p>微星（MSI）B250M MORTAR主板</p>
+    					<span>￥669.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/F2A88XM-D3H.jpg">
+    					<p>技嘉（GIGABYTE）F2A88XM-D3H</p>
+    					<span>￥599.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    		<!--5-->
+    		<ul class="hotBox row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6" id="hotCtrol">
+    				<dl>
+    					<dd>&nbsp;&nbsp;<a href="">新品上架</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">限时折扣</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">满额优惠</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">近期畅销</a></dd>
+    					<dd>&nbsp;&nbsp;<a href="">清仓促销</a></dd>
+    				</dl>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+	    				<img src="img/I5-6500.jpg">
+	    				<p>英特尔 intel I5-6500</p>
+	    				<span>￥5469.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/B150M.jpg">
+    					<p>技嘉  GIGABYTE B150M</p>
+    					<span>￥499.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/Geforce GTX 1070.jpg">
+    					<p>索泰（ZOTAC）Geforce GTX 1070</p>
+    					<span>￥3499.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    	</div>
+    	<!--部分商品展示-->
+    	<div class="container">
+    		<h2><a href="CPU.html">CPU</a></h2>
+    		<ul class="row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="productionCPU.html">
+    					<img src="img/I3-6100.jpg">
+    					<p>英特尔 intel I3-6100</p>
+    					<span>￥819.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="productionCPU.html">
+    					<img src="img/I5-6500.jpg">
+    					<p>英特尔 intel I5-6500</p>
+    					<span>￥1469.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="productionCPU.html">
+    					<img src="img/I7-6700.jpg">
+    					<p>英特尔（Intel）酷睿四核 i7-6700 1151</p>
+    					<span>￥2329.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="productionCPU.html">
+    					<img src="img/AMD-860K.jpg">
+    					<p>AMD 速龙系列 860K 四核 </p>
+    					<span>￥399.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    	</div>
+    	<!--部分商品展示-->
+    	<div class="container">
+    		<h2><a href="mainboard.html">主板</a></h2>
+    		<ul class="row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/B250M-PLUS.jpg">
+    					<p>华硕（ASUS）PRIME B250M-PLUS</p>
+    					<span>￥699.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/MSI-B250M.jpg">
+    					<p>微星（MSI）B250M MORTAR主板</p>
+    					<span>￥669.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/F2A88XM-D3H.jpg">
+    					<p>技嘉（GIGABYTE）F2A88XM-D3H</p>
+    					<span>￥599.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/B150M.jpg">
+    					<p>技嘉  GIGABYTE B150M</p>
+    					<span>￥499.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    	</div>
+    	<!--部分商品展示-->
+    	<div class="container">
+    		<h2><a href="GPU.html">显卡</a></h2>
+    		<ul class="row">
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/MSI GTX 1060 GAMING X 6G.jpg">
+    					<p>微星 MSI GTX 1060 GAMING 6G</p>
+    					<span>￥2399.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/GTX1050Ti.jpg">
+    					<p>技嘉  GIGABYTE GTX1050Ti</p>
+    					<span>￥1299.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/GTX1050-2G.jpg">
+    					<p>铭瑄（MAXSUN）GTX1050终结者2G</p>
+    					<span>￥899.00</span>
+    				</a>
+    			</li>
+    			<li class="hot col-md-3 col-sm-6 col-xs-6">
+    				<a href="">
+    					<img src="img/Geforce GTX 1070.jpg">
+    					<p>索泰（ZOTAC）Geforce GTX 1070</p>
+    					<span>￥3499.00</span>
+    				</a>
+    			</li>
+    		</ul>
+    	</div>
+    	<!--底部-->
+    	<div class="container" id="footer">
+    		<div class="col-md-3 col-md-offset-1 col-sm-3 col-sm-offset-1 col-xs-4">
+    			<h4>客服热线</h4>
+    			<span class="num">400-600-1234</span><br />
+    			<span>周一至周日 8:00-18:00 </span>
+    		</div>
+    		<div class="col-md-8 col-sm-8 col-xs-8">
+    			<div class="row">
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt><a href="">售后服务</a></dt>
+	    				<dd><a href="">服务网点</a></dd>
+	    				<dd><a href="">自助服务</a></dd>
+	    				<dd><a href="">支持建议</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>购物帮助</dt>
+	    				<dd><a href="">个人中心</a></dd>
+	    				<dd><a href="">订单操作</a></dd>
+	    				<dd><a href="">账户管理</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>关于我们</dt>
+	    				<dd><a href="">新浪微博</a></dd>
+	    				<dd><a href="">腾讯微博</a></dd>
+	    			</dl>
+	    			<dl class="col-md-3 col-sm-3 col-xs-3">
+	    				<dt>友情链接</dt>
+	    				<dd><a href="">链接</a></dd>
+	    				<dd><a href="">链接</a></dd>
+	    			</dl>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<span class="col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1" style="color: darkgray;font-size: 12px;">Copyright © 2010 - 2017  南广轩主Yuanrb.com 版权所有 | 消费者维权热线：4006067733 经营证照</span>
+    		</div>
+    	</div>
+    	<!--个人中心-->
+    	<div id="custome"><a href="customer.html"><img src="img/cum.jpg"></a></div>
+    	<!--右边购物车返回顶部-->
+    	<div id="toTop"><img src="img/toTop.png"></div>
+    	<!--购物车图标-->
+    	<div id="shopCar"><a href="shopCar.html"><img src="img/shop32.png"></a></div>
+	</body>
+</html>

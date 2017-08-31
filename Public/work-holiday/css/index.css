@@ -1,0 +1,26 @@
+
+/*banner开始*/
+#banner{width: 70%; float: left; overflow: hidden;margin-right: 5%;}
+#login{width: 25%;float:left;}
+.btnLast{padding-left: 40px;}
+#icon img{ margin:0 3px; cursor:pointer;}
+#icon{ margin:0 auto; width:92px; position:relative; top:-30px;}
+/*banner右边公告*/
+#notes{}
+.notesTitle ul{overflow: hidden;}
+.notesTitle li{float: left;background-color: #EEEEEE;padding: 7px 0;}
+.notesTitle li a{padding:25px;}
+.notesTitle li a:hover{color: orangered;}
+.notesContent li{line-height: 26px;}
+.notesContent li a:hover{color: orangered;}
+.notesContent ul{display: none;}
+.notesContent .firstNote{display: block;}
+/*热门单品开始*/
+ul li span{color: red;}
+ul li p{margin-top: 10px;}
+/*热门单品里面控制列表修饰*/
+#hotBox ul{display: none;}
+#hotBox .firstUl{display: block;}
+#hotCtrol dl dd:hover{cursor: pointer;}
+#hotCtrol dl dd{height: 50px;background-color:#eeeeee;border-bottom: 1px white solid;font-size: 18px;text-align: center left;line-height: 50px;background-image: url(../img/im_02.png); background-position: right;background-repeat: no-repeat;}
+

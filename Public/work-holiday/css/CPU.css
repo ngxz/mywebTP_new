@@ -1,0 +1,32 @@
+ul li span{color: red;}
+ul li p{margin-top: 10px;}
+#CPUList ul li{margin: 20px 0;}
+#CPUList a{color: black;}
+#CPUList a:hover{color:red;text-decoration: none;}
+#CPUList input{color:red;background-color:#eeeeee;border: 1px solid #CCCCCC; width:90px; height:28px;margin-left: 30px;}
+/*点击加入购物车弹出的div*/
+#pop{ width:500px; height:300px; background-color:#CCC; position:fixed; top:50%; left:50%; margin-left:-250px; margin-top:-150px; display:none;}
+#pop-content{ padding:0 100px; width:100%;}
+#pop-content p{ font-size:20px;}
+#pop-content li{ margin:8px;}
+/*弹出div的关闭按钮*/
+#delbtn{ position:relative; left:374px; top:0; cursor:pointer;}
+/*购买数量里边*/
+#count input{ height:22px; border:none; width:90px;}
+#count img{ height:16px;display:inline; margin:0 5px; padding-bottom:-5px;cursor:pointer;}
+/*弹出页的加入购物车按钮*/
+#put input{ margin-left:30%; margin-top:10px;border: solid 1px #CCC; background-color:white; color:red; padding:5px 10px; cursor:pointer;}
+/*购物车弹出内容*/
+#shopBox{ display:none;}
+#shopContent{ background-color:#CCC; width:800px; height:500px; position:fixed; left:50%; margin-left:-400px; top:50%; margin-top:-250px;}
+#delShop{ position:relative; left:766px; cursor:pointer;}
+#titleShop h3{ text-align:center;}
+/*购物车弹出也列表*/
+#conShop ul{overflow: auto;height: 350px;padding-bottom: 50px;}
+#conShop li{ background-color:#999;}
+#conShop li input{ margin-left:20px;}
+#conShop li p{ width:350px; display:inline-block; margin-left:10px;}
+#conShop li span{ width:150px;}
+#conShop li i{ position:relative; margin:0 20px;}
+#conShop li img{ float:right;padding-top:10px;padding-right:10px;cursor:pointer;}
+#all{margin-left: 30px;}
